@@ -34,42 +34,46 @@ const HomePage: React.FC = () => {
       <section className="highlights-section">
         <h2>Artigos</h2>
         <div className="post-grid">
-          <div className="post-card">
-            <h3>Validação de Dados com Zod e TypeScript</h3>
-            <p>
-              Aprenda a validar dados de forma eficiente usando Zod e TypeScript em APIs modernas.
-            </p>
-            <a href="/post3" className="read-more">
-              Ler mais →
-            </a>
-          </div>
+      
           <div className="post-card">
             <h3>API com Bun, Prisma e SQLite</h3>
             <p>
               Descubra como criar uma API rápida e eficiente usando Bun, Prisma e SQLite.
             </p>
-            <a href="/post1" className="read-more">
-              Ler mais →
-            </a>      
+            <Link to='/post1' className="read-more">
+           
+           Ler mais →
+           </Link>    
           </div>
           <div className="post-card">
             <h3>Criação do LoadBalancerX</h3>
             <p>
               Demonstração de como escalar orizontalmente uma aplicação web com Nginx e Docker
             </p>
-            <a href="/post2" className="read-more">
-          
+            <Link to='/post2' className="read-more">
+           
               Ler mais →
-            </a>  
+              </Link>
+          </div>
+          <div className="post-card">
+            <h3>Validação de Dados com Zod e TypeScript</h3>
+            <p>
+              Aprenda a validar dados de forma eficiente usando Zod e TypeScript em APIs modernas.
+            </p>
+            <Link to='/post3' className="read-more">
+           
+           Ler mais →
+           </Link>
           </div>
           <div className="post-card">
             <h3>Como Consumir Api com Fastify</h3>
             <p>
               Aprenda a fazer o consumo de uma Api externa com Fastify.
             </p>
-            <a href="/post4" className="read-more">
-              Ler mais →
-            </a>
+            <Link to='/post4' className="read-more">
+           
+           Ler mais →
+           </Link>
           </div>
 
           <div className="post-card">
@@ -77,9 +81,11 @@ const HomePage: React.FC = () => {
             <p>
               Aprenda como criar um servidor Nginx e configurar ele para php com Docker.
             </p>
-            <a href="/post5" className="read-more">
-              Ler mais →
-            </a>
+            
+             <Link to='/post5' className="read-more">
+           
+           Ler mais →
+           </Link>
           </div>
         </div>
        
