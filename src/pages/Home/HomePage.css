@@ -1,0 +1,125 @@
+/* Estilos Gerais */
+.homepage {
+    font-family: poppins;
+    color: #333;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  /* Seção Hero */
+  .hero-section {
+    background: linear-gradient(135deg, #1a1b22, #527394);
+    color: #fff;
+    width: 100%;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #f4f4f9;
+  }
+  
+  .hero-content p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+  }
+  
+  .github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #fff;
+    color: #1a1b22;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .github-link:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .github-link img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Seção de Destaques */
+  .highlights-section {
+    padding: 2rem;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .highlights-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .post-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .post-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .post-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .read-more {
+    color: #1a1b22;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  
+  /* Rodapé */
+  .footer {
+    margin-top: auto;
+    padding: 1rem;
+    background-color: #1a1b22;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+  }

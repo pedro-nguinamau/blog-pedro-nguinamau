@@ -1,0 +1,73 @@
+/* Estilos Gerais */
+.blog-post {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Cabeçalho */
+  .blog-header {
+    background: #1a1b22;
+    color: #fff;
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .blog-header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  /* Conteúdo Principal */
+  .blog-main {
+    max-width: 800px;
+    width: 100%;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 2rem 0;
+  }
+  
+  .blog-main h2 {
+    color: #1a1b22;
+    margin-top: 2rem;
+  }
+  
+  .blog-main p {
+    line-height: 1.6;
+  }
+  
+  .blog-main pre {
+    background: #f4f4f9;
+    padding: 1rem;
+    overflow-x: auto;
+    border-left: 4px solid #1a1b22;
+    margin: 1rem 0;
+  }
+  
+  .blog-main code {
+    font-family: 'Courier New', Courier, monospace;
+    background: #eee;
+    padding: 2px 4px;
+    border-radius: 3px;
+  }
+  
+  /* Rodapé */
+  .blog-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1a1b22;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .blog-footer a {
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
